@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Website Contact</title>
+  <title> Contact Us | Ghanaian Recipes</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="main.css">
 </head>
@@ -13,7 +13,7 @@
     <header>
       <h1> FINAL PROJECT</h1>
       <figure>
-      <img src="Images/header_image.jpg" alt="Welcome picture" class="pic-top">
+      <img src="Images/welcome-header.jpg" alt="Welcome picture">
       </figure>
     </header>
 
@@ -21,31 +21,38 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="recipes.html">Recipes</a></li>
-          <li><a href="ingredients.html">Ingredients</a></li>
+          <li><a href="ingredients.html" class="active">Ingredients</a></li>
           <li><a href="culture.html">Culture</a></li>
           
         </ul>
       </nav>
 <main>
-  <ul>
-<li>Contact Us</li>
 
-<li>Feel free to send us a message.</li>
+<h2>Contact Us</h2>
+<p>Feel free to send us a message.</p>
 
-<li>Use the form below to reach out to us, and we will respond as soon as possible.</li>
+<p>Use the form below to reach out to us, and we will respond as soon as possible.</p>
 
-<li>YOUR NAME</li>
 
-<li>EMAIL ADDRESS</li>
 
-<li>SUBJECT</li>
+  <form>
 
-<li>MESSAGE</li>
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required>
 
-<li><a href="Contact Link">SEND</a></li>
-  </ul>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject">
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send</button>
+
+  </form>
 </main>
-
       <footer>
         <a href="https://www.instagram.com/official_biancab/?igsh=aWpqc3V6MGVocW5i&utm_source=qr">
          <i class="fa-brands fa-instagram"></i>
